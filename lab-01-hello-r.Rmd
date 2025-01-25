@@ -4,12 +4,13 @@ author: "Jude Groff"
 output:
   pdf_document: 
     fig_width: 7
-    fig_height: 5
+    fig_height: 6
+    latex_engine: xelatex
   tufte::tufte_html:
     css: ../lab.css
     tufte_variant: envisioned
     highlight: pygments
-  html_document:
+  html_document: 
     latex_engine: xelatex
 link-citations: true
 ---
