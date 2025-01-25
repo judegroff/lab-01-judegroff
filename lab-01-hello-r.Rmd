@@ -2,14 +2,15 @@
 title: "Lab 01 - Hello R!"
 author: "Jude Groff"
 output:
-  html_document:
-    latex_engine: xelatex
+  pdf_document: 
     fig_width: 7
     fig_height: 5
   tufte::tufte_html:
     css: ../lab.css
-    tufte_variant: "envisioned"
+    tufte_variant: envisioned
     highlight: pygments
+  html_document:
+    latex_engine: xelatex
 link-citations: true
 ---
 
